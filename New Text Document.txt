@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Claim your free Steam Gift Card today!" />
+  <title>Free Steam Gift Card</title>
+  <style>
+    body {
+      background: #171a21;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    .container {
+      background: #1b2838;
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #66c0f4;
+    }
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    .btn {
+      background: #66c0f4;
+      color: #0e141b;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #4b9fdc;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #9e9e9e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam Gift Card" />
+    <h1>Free Steam Gift Card</h1>
+    <p>🎁 Unlock a free Steam gift card by completing 1 quick offer.</p>
+    <button class="btn" onclick="openLocker()">Claim Now</button>
+  </div>
+
+  <div class="footer">
+    This promotion is not affiliated with Valve Corporation or Steam. For entertainment purposes only.
+  </div>
+
+  <script>
+    function openLocker() {
+      window.location.href = "https://contentlocked.net/cl/i/lk25qg";
+    }
+  </script>
+</body>
+</html>
